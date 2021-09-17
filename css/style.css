@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0 20px;
+}
+
+header {
+  padding: 16px;
+  width: 100%;
+  max-width: 1440px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 16px -6px #000;
+          box-shadow: 0px 0px 16px -6px #000;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+header form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+header form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 20px;
+}
+
+header form div label {
+  font-size: 16px;
+}
+
+header form div input {
+  width: 100%;
+  padding: 8px 16px;
+}
+
+header form button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+header form button img {
+  background: #2ecc71;
+  padding: 10px 8px;
+}
+
+.btn-edit {
+  padding: 6px 8px;
+  background: #3498db;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-delete {
+  padding: 6px 8px;
+  background: #c0392b;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-collapse: collapse;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 16px -6px #000;
+          box-shadow: 0px 0px 16px -6px #000;
+}
+
+table thead tr {
+  background: #36304a;
+}
+
+table thead tr th {
+  color: white;
+  font-size: 18px;
+  padding: 18px 12px;
+  text-align: left;
+}
+
+table thead tr th:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+table thead tr th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+table tbody {
+  width: 100%;
+}
+
+table tbody tr {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: gray;
+  line-height: 1.2;
+  font-weight: unset;
+  position: relative;
+}
+
+table tbody tr:hover {
+  background: #f0f0f0;
+}
+
+table tbody tr td {
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */

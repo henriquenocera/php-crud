@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CRUD - PHP</title>
+</head>
+<body>
+    <header>
+        <form method="POST">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email">
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" name="phone">
+            </div>
+            <button type="submit" value="" name="submit">
+                <img src="images/add.svg" alt="">
+            </button>
+        </form>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>E-mail</th>
+                    <th>Phone</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Henrique</td>
+                    <td>henrique@mail.com</td>
+                    <td>(99) 9 9999-9999</td>
+                    <td class="buttons">
+                        <button class="btn-edit"><img src="images/edit.svg" alt=""></button>
+                        <button class="btn-delete"><img src="images/delete.svg" alt=""></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Henrique</td>
+                    <td>henrique@mail.com</td>
+                    <td>(99) 9 9999-9999</td>
+                    <td class="buttons">
+                        <button class="btn-edit"><img src="images/edit.svg" alt=""></button>
+                        <button class="btn-delete"><img src="images/delete.svg" alt=""></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Henrique</td>
+                    <td>henrique@mail.com</td>
+                    <td>(99) 9 9999-9999</td>
+                    <td class="buttons">
+                        <button class="btn-edit"><img src="images/edit.svg" alt=""></button>
+                        <button class="btn-delete"><img src="images/delete.svg" alt=""></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
