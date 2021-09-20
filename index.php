@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
                        VALUES ('$name', '$email', '$phone')";
     $result = $pdo->prepare($sql);
     $result->execute();
-    header('Locatiin: index.php');
+    header('Location: index.php');
 }
 
 
@@ -79,7 +79,7 @@ if (isset($_POST['submit'])) {
 
 
                             <button class="btn-edit">
-                                <a href="">
+                                <a href="edit.php?id=<?php echo $user['id']; ?>">
                                     <img src="images/edit.svg" alt="">
                                 </a>
                             </button>
